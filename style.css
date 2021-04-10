@@ -1,0 +1,80 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+nav img {
+    height: 20px;
+}
+
+main {
+   width: 50%;
+   margin: 6.9em auto;
+   text-align: center;
+}
+
+main img {
+    height: 100px;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 5px rgb(243, 234, 234);
+}
+
+.btns_container {
+    margin-top: 1em;
+}
+
+.btns_container button {
+    padding: 9px;
+    border-radius: 12px;
+    border:1px solid rgb(240, 234, 234)
+}
+
+footer {
+    background-color: rgb(240, 236, 236);
+}
+
+.footer_top {
+    padding: 1em;
+
+}
+.footer_bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(160, 157, 157);
+}
+
+.footer_top_left a {
+    margin-right: 1em;
+}
+
+.footer_bottom_center a {
+    padding-right: 2px;
+}
+
+.footer_bottom_right a {
+    margin-right: 1em;
+}
